@@ -1,6 +1,8 @@
 module Rack
   # Adds some meta info like host name to response header
   class PathPrefixer
+    VERSION = File.read( File.join(File.dirname(__FILE__),'..','..','VERSION') ).strip
+
     def initialize(app, options={})
       @app = app
       @options = options
