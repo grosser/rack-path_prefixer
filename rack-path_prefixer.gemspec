@@ -15,7 +15,8 @@ Gem::Specification.new do |s|
     "Rakefile",
      "Readme.md",
      "VERSION",
-     "lib/rack/path_prefixer.rb"
+     "lib/rack/path_prefixer.rb",
+     "rack-path_prefixer.gemspec"
   ]
   s.homepage = %q{http://github.com/grosser/rack-path_prefixer}
   s.rdoc_options = ["--charset=UTF-8"]
