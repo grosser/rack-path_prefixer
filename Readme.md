@@ -10,7 +10,14 @@ As Gem: ` sudo gem install rack-path_prefixer `
 
 The replace links in body part is just a gsub, so it wont cover all cases.
 
+Rails 3
+=======
+With Rails3 you can use the router to get a similar behaviour with:
 
+    # config/routes.rb
+    scope "/foo" do
+      ... all your routes ...
+    end
 
 Author
 ======
